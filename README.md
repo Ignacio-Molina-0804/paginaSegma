@@ -1,46 +1,62 @@
-# Astro Starter Kit: Basics
+# 🚀 SEGMA — Sitio Web Corporativo
 
-```sh
-npm create astro@latest -- --template basics
+Bienvenido al repositorio oficial del sitio web de **SEGMA**, una empresa líder en soluciones innovadoras. Este proyecto está construido con [Astro](https://astro.build/) y [TailwindCSS](https://tailwindcss.com/) para ofrecer una experiencia moderna, rápida y eficiente.
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+├── .astro/           # Archivos generados por Astro
+├── .vscode/          # Configuración recomendada para VS Code
+├── public/           # Recursos públicos y estáticos (favicon, imágenes)
+└── src/              # Código fuente principal
+    ├── assets/       # Imágenes y gráficos
+    ├── components/   # Componentes reutilizables (NavBar, Footer, Hero, etc.)
+    ├── layouts/      # Plantillas base para las páginas
+    ├── pages/        # Páginas del sitio web
+    └── styles/       # Hojas de estilo globales (TailwindCSS, CSS)
+├── astro.config.mjs  # Configuración de Astro y plugins
+├── package.json      # Dependencias y scripts
+├── tsconfig.json     # Configuración de TypeScript
+└── .gitignore        # Archivos ignorados por Git
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## ⚡ Instalación Rápida
 
-Inside of your Astro project, you'll see the following folders and files:
+1. **Clona el repositorio:**
+   ```sh
+   git clone https://github.com/tu-usuario/segma.git
+   cd segma
+   ```
+2. **Instala las dependencias:**
+   ```sh
+   npm install
+   ```
+3. **Inicia el servidor de desarrollo:**
+   ```sh
+   npm run dev
+   ```
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+---
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🛠️ Scripts Útiles
 
-## 🧞 Commands
+- `npm run dev` — Inicia el servidor de desarrollo.
+- `npm run build` — Genera la versión de producción.
+- `npm run preview` — Previsualiza el sitio generado.
 
-All commands are run from the root of the project, from a terminal:
+---
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 🧩 Tecnologías Utilizadas
 
-## 👀 Want to learn more?
+- **Astro** — Framework moderno para sitios rápidos y estáticos.
+- **TailwindCSS** — Utilidades CSS para un diseño ágil y personalizable.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
+
+<p align="center">
+  <b>SEGMA</b> © 2024 — Todos los derechos reservados.
+</p>
